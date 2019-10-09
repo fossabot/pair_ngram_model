@@ -21,7 +21,7 @@
     ./train.py \
         --seed="${SEED}" \
         --input_path=train.tsv \
-        --output_path=model.fst
+        --model_path=model.fst
     # TODO: hyperparameter optimization using dev.tsv
     cut -f1 test.tsv > test.g
     cut -f2 test.tsv > gold.p

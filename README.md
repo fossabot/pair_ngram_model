@@ -1,4 +1,6 @@
 # Pair n-gram modeling toolkit
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAKASHCHAURASIA%2Fpair_ngram_model.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAKASHCHAURASIA%2Fpair_ngram_model?ref=badge_shield)
+
 
 ## Requirements
 
@@ -32,3 +34,7 @@
     ./evaluate.py eval.tsv
     rm -f test.g gold.p hypo.p
     rm -f train.tsv dev.tsv test.tsv eval.tsv
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAKASHCHAURASIA%2Fpair_ngram_model.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAKASHCHAURASIA%2Fpair_ngram_model?ref=badge_large)
